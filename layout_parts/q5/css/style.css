@@ -1,5 +1,109 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.nine__boxes {
+  background-color: #ECF1F2;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  position: relative;
+}
 
+.box__8 {
+  background-color: #de70cf;
+  width: 100px;
+  height: 100px;
+  position: absolute; left: 120px; top: 120px; z-index: 8;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.box__8::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  position: absolute; left: 80px; right: 0; top: 0; bottom: 0;
+}
+
+.box__5 {
+  background-color: #9fd6d2;
+  width: 100px;
+  height: 100px;
+  position: absolute; bottom: 40px; left: 200px; z-index: 5;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.box__1 {
+  background-color: #ffefd3;
+  width: 100px;
+  height: 100px;
+  position: absolute; top: 40px; left: 200px; z-index: 1;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.box__7 {
+  background-color: #deae70;
+  width: 100px;
+  height: 100px;
+  position: absolute; left: 40px; top: 200px; z-index: 7;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.box__4 {
+  background-color: #8b7a5e;
+  width: 100px;
+  height: 100px;
+  position: absolute; bottom: 120px; right: 120px; z-index: 4;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.box__6 {
+  background-color: #fffee4;
+  width: 100px;
+  height: 100px;
+  position: absolute; bottom: 120px; left: 120px; z-index: 6;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.box__2 {
+  background-color: #7084de;
+  width: 100px;
+  height: 100px;
+  position: absolute; top: 120px; right: 120px; z-index: 2;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.box__3 {
+  background-color: #d0ecea;
+  width: 100px;
+  height: 100px;
+  position: absolute; top: 200px; right: 40px; z-index: 3;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+} 
+
+.box__9 {
+  background-color: #2b69a3;
+  width: 100px;
+  height: 100px;
+  position: fixed; top: 10px; left: 10px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
 /* 回答はここに書いてね */
