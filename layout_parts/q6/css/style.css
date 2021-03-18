@@ -8,13 +8,15 @@
 .left_box_text {
   display: inline-block;
   width: 90px;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #e6f2ff;
 }
 
 .right_box_text {
-  margin: auto;
-  padding: 10px;
+  margin:0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
   width: 90px;
   text-align: center;
   background-color: #e6f2ff;
