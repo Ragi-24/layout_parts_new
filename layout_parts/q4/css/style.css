@@ -12,10 +12,11 @@
   width: 100%;
   display: table;
   box-sizing: border-box;
+  margin-top: 20px;
 }
 
-.dtable_content:last-child {
-  margin-top: 20px;
+.dtable_content:first-child {
+  margin-top: 0;
 }
 
 .dtable_contents_cell {

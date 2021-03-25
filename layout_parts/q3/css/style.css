@@ -23,11 +23,11 @@
   border: solid 1px #dedede;
 }
 
-tbody tr:nth-child(2n) {
+.menu tbody tr:nth-child(2n) {
   background-color: #ecf1f2;
 }
 
-tbody tr:last-child {
+.menu tbody tr:last-child {
   border-top: dashed 2px #000;
 }
 
