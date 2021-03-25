@@ -7,7 +7,7 @@
   table-layout: fixed;
 }
 
-th {
+.menu th {
   font-size: 18px;
   line-height: 26px;
   color: #ffff;
@@ -16,7 +16,7 @@ th {
   background-color: #2244aa;
 }
 
-td {
+.menu td {
   font-size: 16px;
   line-height: 22px;
   padding: 10px;
