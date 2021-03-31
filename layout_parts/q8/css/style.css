@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
 .q8__image__trans {
   width: 500px;
   height: 333px;
@@ -20,7 +21,7 @@
   line-height: 16px;
   padding: 20px;
   color: #fff;
-  background-color: rgba(0,0,0,0);
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
   position: absolute;
   bottom: -100%;
   transition: 0.5s;
@@ -32,7 +33,6 @@
 }
 
 .q8__image__trans:hover .caption {
-  background-color: rgba(0,0,0,0.8);
   position: absolute;
   bottom: 0;
   transition: 0.5s;

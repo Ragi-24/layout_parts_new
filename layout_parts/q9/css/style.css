@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
 .content {
   width: 500px;
   margin: 0 auto;
@@ -10,8 +11,9 @@
   position: relative;
 }
 
-.content::before,
-.content::after {
+.content::before, .content::after {
+  border-style: solid;
+  border-width: 30px;
   content: "";
   position: absolute;
   bottom: -60px;
@@ -21,33 +23,17 @@
 }
 
 .content::before {
-  border-top: solid 30px #222;
-  border-right: solid 30px transparent;
-  border-bottom: solid 30px transparent;
-  border-left: solid 30px transparent;
+  border-color: #222 transparent transparent transparent;
 }
 
 .content::after {
+  border-color: #fff transparent transparent transparent;
   bottom: -53px;
-  border-top: solid 30px #fff;
-  border-right: solid 30px transparent;
-  border-bottom: solid 30px transparent;
-  border-left: solid 30px transparent;
 }
 
 
 .box__text {
   font-size: 16px;
   line-height: 16px;
-}
-
-.triangle {
-  width: 0;
-  height: 0;
-  border-top: solid 30px #222;
-  border-right: solid 30px transparent;
-  border-left: solid 30px transparent;
-  border-bottom: solid 30px transparent;
-  position: absolute;
 }
 /* 回答はここに書いてね */

@@ -1,19 +1,20 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
 .is-clearfix:after {
-  display: block;
-  content: "";
   clear: both;
+  content: "";
+  display: block;
 }
 
-.is-float {
-  float: left;
+.q7__basic-square {
+  box-sizing: border-box;
+  width: 225px;
 }
 
 .q7__float__content {
-  width: 225px;
-  box-sizing: border-box;
+  float: left;
   margin-left: 50px;
 }
 
@@ -26,8 +27,8 @@
 }
 
 .is-table-cell {
+  box-sizing: content-box;
   display: table-cell;
-  width: 225px;
   padding-left: 50px;
   vertical-align: middle;
 }
@@ -42,11 +43,9 @@
 
 .q7__ib__content {
   display: inline-block;
-  width: 225px;
-  vertical-align: middle;
-  box-sizing: border-box;
-  margin-left: 50px;
   font-size: 16px;
+  margin-left: 50px;
+  vertical-align: middle;
 }
 
  .q7__ib__content:first-child {
@@ -54,14 +53,9 @@
 } 
 
 .is-flex {
+  align-items: flex-end;
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
-}
-
-.q7__flex__items {
-  width: 225px;
-  box-sizing: border-box;
 }
 
 .q7__fixed {
@@ -70,10 +64,12 @@
 }
 
 .q7__variable {
+  box-sizing: border-box;
   display: inline-block;
-  margin-top: -116px;
-  margin-left: 350px;
+  margin-left: -305px;
+  padding-left: 350px;
   vertical-align: top;
+  width: 100%;
 }
 
 /* 回答はここに書いてね */
