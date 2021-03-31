@@ -16,7 +16,6 @@
   border-width: 30px;
   content: "";
   position: absolute;
-  bottom: -60px;
   left: 20px;
   width: 0;
   height: 0;
@@ -24,13 +23,13 @@
 
 .content::before {
   border-color: #222 transparent transparent transparent;
+  bottom: -60px;
 }
 
 .content::after {
   border-color: #fff transparent transparent transparent;
   bottom: -53px;
 }
-
 
 .box__text {
   font-size: 16px;
